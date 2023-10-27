@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;0,700;1,200;1,300;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line {
+    display: inline-block;
+    height: 4px;
+    width: 30%;
+    background-color: rgb(119, 20, 239);
+}
+
+.Btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(119, 20, 239);
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    letter-spacing: 1px;
+    border: 1px solid rgb(119, 20, 239);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.Btn:hover {
+    border: 2px solid rgb(119, 20, 239);
+    background: transparent;
+    color: rgb(119, 20, 239);
+}
+
+
+/* nav section start */
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 15px;
+    text-transform: capitalize;
+    transition: all 0.4s;
+}
+
+.nav-item a:hover {
+    color: rgb(119, 20, 239);
+}
+
+.navbar-brand span {
+    font-size: 27px;
+    font-weight: 700;
+    color: #000;
+}
+
+.navbar-brand span:nth-child(2) {
+    color: rgb(119, 20, 239);
+}
+
+
+.navbar-toggler {
+    font-size: 23px;
+    font-weight: 700;
+    color: #000;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* home section */
+
+.home {
+    width: 100%;
+    background: url(./img/crousel-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.home h1 {
+    font-size: 46px;
+    color: #000;
+    font-weight: 700;
+}
+
+
+.home p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(119, 20, 239);
+}
+
+.home p:nth-child(2) {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.video-Btn {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid rgb(119, 20, 239);
+    background: transparent;
+    color: rgb(119, 20, 239);
+    font-weight: 600;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.video-Btn:hover {
+    background-color: rgb(119, 20, 239);
+    border: 1px solid rgb(119, 20, 239);
+    font-weight: 600;
+    color: #fff;
+}
+
+.video-Btn i {
+    color: #eb1d1d;
+    font-size: 16px;
+}
+
+.video-Btn span {
+    color: rgb(119, 20, 239);
+    margin-left: 10px
+}
+
+.video-Btn span:hover {
+    color: #fff;
+}
+
+
+/* About section */
+
+.about {
+    width: 100%;
+    height: 85vh;
+    background: url(./img/about.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about h5 span {
+    color: rgb(119, 20, 239);
+    font-weight: 700;
+}
+
+.about h1 {
+    font-size: 32spx;
+    font-weight: 600;
+}
+
+.about h1 span {
+    color: rgb(119, 20, 239);
+    font-weight: 700;
+}
+
+
+/* services section */
+
+.services {
+    width: 100%;
+}
+
+.services h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.services h5 span {
+    color: rgb(119, 20, 239);
+}
+
+.line2 {
+    background-color: #000;
+    height: 4px;
+    width: 30%;
+    display: inline-block;
+}
+
+.services h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: rgba(119, 20, 239, 0.84);
+}
+
+.services p {
+    color: rgba(119, 20, 239, 0.84);
+}
+
+.services .card {
+    border: 2px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.services .card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-body h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(119, 20, 239);
+}
+
+.card-body p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #555;
+}
+
+
+/* menu section */
+
+.menu {
+    width: 100%;
+}
+
+.menu h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.menu h5 span {
+    color: rgb(119, 20, 239);
+    font-weight: 700;
+}
+
+.menu h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.menu h1 span {
+    color: rgb(119, 20, 239);
+    font-weight: 700;
+}
+
+.star {
+    text-align: end;
+    color: #f4d32d;
+}
+
+.menu .card-body {
+    border: 1px solid rgb(175, 172, 172);
+    border-radius: 6px;
+}
+
+.menu .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+
+
+.menu .name {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(119, 20, 239);
+}
+
+.menu .value {
+    font-size: 17px;
+    font-weight: 500;
+    color: #555;
+}
+
+.menuBtn {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: rgb(119, 20, 239);
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    letter-spacing: 1px;
+    border: 1px solid rgb(119, 20, 239);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.menuBtn:hover {
+    background: transparent;
+    color: rgb(119, 20, 239);
+    border: 2px solid rgba(119, 20, 239, 0.84);
+}
+
+.menu .img-fluid {
+    height: 300px;
+    width: 350px;
+    transition: all 0.4s;
+}
+
+.menu .img-fluid:hover {
+    scale: 0.9;
+}
+
+
+
+/* Team section */
+
+.team {
+    width: 100%;
+}
+
+.team h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.team h5 span {
+    color: rgb(119, 20, 239);
+    font-weight: 700;
+}
+
+.team h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+}
+
+.team h1 span {
+    color: rgb(119, 20, 239);
+    font-weight: 700;
+}
+
+.team p {
+    color: #000;
+}
+
+.team h4 {
+    font-size: 17px;
+    color: #555;
+}
+
+.team .img-fluid {
+    height: 120px;
+    width: 150px;
+    border-radius: 80px;
+}
+
+.team .social {
+    align-items: center;
+    margin: 10px;
+}
+
+.team .social i {
+    font-size: 18px;
+    background-color: rgb(119, 20, 239);
+    margin: 6px;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 30px;
+}
+
+.team .social i:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+/* discount section */
+
+.discount {
+    background: url(./img/discount.jpg) no-repeat;
+    background-position: center;
+    width: 100%;
+    color: #fff;
+}
+
+.discount h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.discount h1 span {
+    color: rgba(119, 20, 239, 0.84);
+}
+
+
+/* members section */
+
+.members{
+    width: 100%;
+}
+
+.members .card-one{
+    background: rgba(119, 20, 239, 0.84);
+    border-radius: 8px;
+}
+
+.card-one .card .card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.members i{
+    font-size: 26px;
+    color: #fff;
+}
+
+.members i span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin: 6px;
+}
+
+.members p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px;
+}
+
+/* contact section */
+
+.contact{
+    background-color: #000000d7;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.contact h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact h2 span{
+    color: rgb(119, 20, 239);
+}
+
+.contact h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact .img-fluid{
+    height: 420px;
+    width: 500;
+    margin-top: 60px;
+}
+
+
+/* footer section */
+
+.footer{
+    background: rgba(119, 20, 239, 0.84);
+    width: 100%;
+}
+
+.footer h5{
+    font-size: 15px;
+    font-weight: 500;
+}
